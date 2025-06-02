@@ -1,6 +1,7 @@
 /* Styling Only Related To ALL Pages */
-
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Playwrite+AU+SA:wght@100..400&family=Playwrite+HU:wght@100..400&display=swap");
 body {
+  font-family: "Playwrite AU SA", cursive;
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
@@ -44,6 +45,13 @@ h1 {
   width: 100%;
 }
 
-.child-flex{
+.child-flex {
   color: white;
+}
+
+.playwrite-au-sa-<uniquifier > {
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
